@@ -1,0 +1,34 @@
+package bean;
+
+import java.io.Serializable;
+
+public class TestListStudent extends User implements Serializable {
+	private String subjectNmae;
+	private String subjectCd;
+	private int num;
+	private int point;
+	public String getSubjectNmae() {
+		return subjectNmae;
+	}
+	public void setSubjectNmae(String subjectNmae) {
+		this.subjectNmae = subjectNmae;
+	}
+	public String getSubjectCd() {
+		return subjectCd;
+	}
+	public void setSubjectCd(String subjectCd) {
+		this.subjectCd = subjectCd;
+	}
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public int getPoint() {
+		return point;
+	}
+	public void setPoint(int point) {
+		this.point = point;
+	}
+}
