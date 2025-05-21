@@ -3,15 +3,15 @@ package bean;
 import java.io.Serializable;
 
 public class TestListStudent extends User implements Serializable {
-	private String subjectNmae;
+	private String subjectName;
 	private String subjectCd;
 	private int num;
 	private int point;
-	public String getSubjectNmae() {
-		return subjectNmae;
+	public String getSubjectName() {
+		return subjectName;
 	}
-	public void setSubjectNmae(String subjectNmae) {
-		this.subjectNmae = subjectNmae;
+	public void setSubjectName(String subjectName) {
+		this.subjectName = subjectName;
 	}
 	public String getSubjectCd() {
 		return subjectCd;
